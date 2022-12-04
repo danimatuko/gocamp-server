@@ -24,7 +24,7 @@ dotenv.config();
 connectToDB();
 app.use(
   cors({
-    origin: '/',
+    origin: '*',
   })
 );
 
